@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;  
+  }
+
+  @media screen and (max-width:1440px) {
+    .mid{
+        flex-direction: column;
+    }
+  }
+
+  @media screen and( max-width:375px) {
+    .row{
+        flex-wrap: column;
+    }
+  }
+
+  body{
+    background-image: url("https://i.im.ge/2022/06/17/r4mad9.png");
+    background-color: rgb(255,121,120);
+}
+
+.row{
+    width: 100%;
+}
+  
+
+  main{
+    display: grid;
+    grid-template-areas: 
+    "a"
+    "b"
+    ;
+    gap: 10px;
+    width: 30%;
+    height: 30%;
+    margin: auto;
+    float: right;
+    display: grid;
+    margin-top: 150px;
+    margin-right: 150px;
+    
+}
+
+.mid{
+    color: rgb(247,254,251);
+    font-family: 'Poppins', sans-serif;
+    float: left;
+    margin-top: 250px;
+    margin-left: 300px;
+}
+
+.mid h1{
+    font-size:xx-large;
+}
+.mid p{
+    font-size: smaller;
+}
+
+
+main div{
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+   
+}
+
+
+input{
+    width: 350px;
+    height: 35px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+button{
+    background-color: rgb(55,204,138);
+    width: 355px;
+    height: 35px;
+    margin: 5px;
+
+}
+
+button:hover{
+    background: transparent;
+    opacity: 0.6;
+    cursor: pointer;
+    color: blue;
+}
+
+.grid1{
+    background-color:rgb(93,84,163);
+    grid-area: a;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.grid2{
+    background-color: rgb(255, 255, 255);
+    grid-area: b;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.TaC{
+    color: rgba(197, 10, 10, 0.668);
+}
+
+.in-col{
+    color: rgb(247,254,251)
+}
+
+.s-text{
+    font-size:x-small;
+}
+
+input:required:invalid{
+    outline:none;
+    border: none;
+    border: 1px solid hsl(0, 100%, 74%);
+    background-image: url("https://i.im.ge/2022/06/17/r4Yuu4.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-origin: content-box;
+}
+
+input:invalid+span{
+    display: inline;
+    color: hsl(0, 100%, 74%);
+    float: 14px;
+}
+
+input:invalid{
+    outline: none;
+    border: none;
+    border: 1px solid hsl(154, 59% 31%);
+}
+
+span{
+    display: none;
+}
+
+
