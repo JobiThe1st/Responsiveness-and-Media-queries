@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-bg{
+    background-image: url(https://i.im.ge/2022/06/18/rGHPvW.jpg);
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  
+  .flex-container > div {
+    width: 450px;
+    margin: 50px;
+  }
+
+.flex-container-border {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+    background-color: rgb(255,255,255);
+    border-radius: 15px;
+    border-width: 100px;
+    box-shadow: rgba(25,25,25,.04) 0 0 100px 0,rgba(0,0,0,.1) 0 3px 4px 1px;
+    margin: 50px;
+    width: 90%;
+    height: 350px;
+
+}
+
+button{
+    margin: 15px 40px 15px 40px;
+    padding: 15px 60px 15px 60px;
+    border-radius: 40px;
+    background-color: rgb(255,255,255);
+    cursor: pointer;
+    box-shadow: rgba(25,25,25,.04) 0 0 1px 0,rgba(0,0,0,.1) 0 3px 4px 0;
+    
+}
+
+ .pink{
+    background-color: rgb(252,84,190);
+    color: white;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255,255,255);
+    border-radius: 15px;
+    border-width: 200px;
+    box-shadow: rgba(25,25,25,.04) 0 0 1px 0,rgba(0,0,0,.1) 0 3px 4px 0;
+    margin: auto;
+    width: 40%;
+    align-items: center;
+    font-family: Arial,sans-serif;
+    height: 200px;
+    position: relative;
+    bottom: -60px;
+    }
+
+    .fin-div{
+        background-color: rgb(0,37,46);
+        display: flex;
+        justify-content: space-between;
+        padding: 100px;
+        color: white;
+    }
+
+    .fin-div p{
+        padding: 20px ;
+        
+      
+    }
